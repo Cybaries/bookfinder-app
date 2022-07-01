@@ -66,12 +66,12 @@ h1{
     margin: 5px;
 }
 
-.card .bottom .title{
+.card .title{
     font-size: 14px;
     font-weight: bold;
 }
 
-.card .bottom .amount{
+.amount{
     background-color: rgba(142, 86, 17, 0.8);
     /* margin-top: -5px; */
     padding: 0.2rem;

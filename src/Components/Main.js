@@ -10,7 +10,7 @@ const Main = () => {
         if (evt.key === 'Enter') {
             const Search = async () => {
                 try {
-                    const res = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${search}&key=${API_KEY}`)
+                    const res = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${search}&key=${API_KEY}+&maxResults=25`);
                     setData(res.data.items);
                 }
                 catch (err) {
