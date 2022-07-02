@@ -30,6 +30,7 @@ const Main = () => {
                     <h1>Find Your Book</h1>
                     <div className="search">
                         <input type="text" placeholder="Search" value={search} onChange={e => setSearch(e.target.value)} onKeyPress={searchBook} />
+                        {/* Search using Enter button, search icon still needs some work to be done on. */}
                         <button><i className="fas fa-search"></i></button>
                     </div>
                 </div>
