@@ -98,3 +98,6 @@ h1{
 .search input:focus{
     outline: none;
 }
+.search button:hover{
+    transform: scale(0.9);
+}

@@ -5,7 +5,7 @@ import axios from 'axios'
 const Main = () => {
     const API_KEY = require('./pass.json').API_KEY;
     const [ search, setSearch ] = useState('');
-    const [bookData, setData] = useState([]);
+    const [ bookData, setData ] = useState([]);
     const searchBook = (evt) => {
         if (evt.key === 'Enter') {
             const Search = async () => {
@@ -20,6 +20,8 @@ const Main = () => {
             Search();
         }
     }
+    // console.log(bookData);
+    // console.log(search);
     return (
         <>
             <div className="header">
